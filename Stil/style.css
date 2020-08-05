@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+body{
+    font-family:sans-serif;
+    background:#E5E5E4; 
+}
+
+
+.tasiyici{
+    width: 100%;
+    max-width: 1150px;
+    margin:0px auto;
+    background: white;
+    margin-top: 20px;
+}
+
+
+nav{
+    background:#05004e;
+    text-align: right;
+}
+
+nav li{
+    display: inline-block; /*satır düzeyinde sıralama */
+    padding: 25px 0px;
+}
+
+nav li a{
+    padding:25px;
+    color:white;
+    font-weight: 600;
+}
+
+nav li a:hover{
+    background: #facf5a;
+}
+.main h2{
+    margin-bottom: 10px;
+}
+
+.main-1{
+    width: 90%;
+    height: 50%;
+    padding: 15px;
+}
+.main-2{
+    width: 90%;
+    height: 50%;
+    padding: 15px;
+}
+.main-3{
+    width: 90%;
+    height: 50%;
+    padding: 15px;
+}
+.main-4{
+    width:90%;
+    height:50%;
+    padding: 15px;
+}
+
+
+
+@media screen and (max-width:900px){
+    nav {
+        text-align: center;
+    }
+    nav li {
+        width:100%;
+        padding: 0px;
+    }
+    nav li a{
+        display: block;
+        padding: 15px;
+    }
+    img {
+        width:70%;
+        padding: 0px;
+        
+    }
+    
+}
+
+
+
+.btn-1 {
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+}
+ 
+.btn-1:hover {
+    color: #4CAF50;
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+}
+ 
+.btn-2 {
+    border: 2px solid #4CAF50;
+    background-color: white;
+    color: #4CAF50;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+ 
+.btn-2:hover {
+    color: #fff;
+    background-color: #4CAF50;
+}
